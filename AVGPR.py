@@ -1,6 +1,6 @@
-for t in range(int(raw_input())):
-    n = int(raw_input())
-    a = [int(i) for i in raw_input().split()]
+for t in range(int(raw_input())): # number of test cases
+    n = int(raw_input()) # length of sequence
+    a = [int(i) for i in raw_input().split()] # space separated integer sequence
     count = 0
     hassh = [0]*2001
     for i in a:
@@ -13,4 +13,4 @@ for t in range(int(raw_input())):
                        count += hassh[ i + 2*j ] * hassh[ i ]
        if hassh[ i ] > 1:
             count += (hassh[ i ] * ( hassh[ i ] - 1 )) // 2
-    print(count) 
+    print(count) # number of pairs for which 2Ak=Ai+Aj holds
