@@ -1,11 +1,11 @@
 n = int(input())
-a = [i for i in range(1,n+1)]
+a = [i for i in range(1,n+1)] # input array containing n integers
 if n == 2:
-    print(1,2)
-    print(2,1)
+    print(1,2) # permutation P1 : maximum possible permutation for n = 2
+    print(2,1) # permutation P2 : minimum possible permutation for n = 2
 elif n == 3:
-    print(1,3,2)
-    print(1,2,3)
+    print(1,3,2) # permutation P1 : maximum possible permutation for n = 3
+    print(1,2,3) # permutation P2 : minimum possible permutation for n = 3
 else:
     min_a = []
     min_a.append(n)
@@ -21,5 +21,5 @@ else:
     if n > 2:
         max_a.append(mid+1)
 
-    print(*max_a)
-    print(*min_a)
+    print(*max_a) # permutation P1 : maximum possible permutation
+    print(*min_a) # permutation P2 : minimum possible permutation
