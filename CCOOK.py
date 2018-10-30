@@ -1,7 +1,7 @@
-n=int(input())
-for i in range(n):
+n=int(input()) # number of competitors
+for i in range(n): 
     l=[int(x) for x in input().split()]
-    t=l.count(1)
+    t=l.count(1) # number of 1's in l = number of questions solved 
     if t==0:
         print("Beginner")
     if t==1:
