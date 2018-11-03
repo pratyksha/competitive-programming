@@ -7,10 +7,10 @@ def swap(b,i,x,n):
         x += 1
         swap(b,i,x,n)
     return b
-for t in range(int(input())):
+for t in range(int(input())): # number of test cases
     n = int(input())
     a = [int(i) for i in input().split()]
-    b = a[::-1]
+    b = a[::-1] # reversed a
     ct = 0
     if n > 2:
         for i in range(n-1):
