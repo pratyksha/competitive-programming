@@ -6,10 +6,10 @@ class Codechef
 	public static void main (String[] args) throws IOException
 	{
 	    Scanner sc=new Scanner(System.in);
-	    int T=sc.nextInt();
+	    int T=sc.nextInt(); // number of test cases
 	    for(int i=0;i<T;i++)
 	    {
-	        String n=sc.next();
+	        String n=sc.next(); // large positive integer input
 	        char []ch=n.toCharArray();
 	        int a[]=new int[10],c=0,ct=-1;
 	        for(int j=0;j<10;j++)
@@ -42,7 +42,7 @@ class Codechef
                         {
                             if(p<91&&p>64)
                             {
-                                System.out.print((char)p);
+                                System.out.print((char)p); // characters that can be picked
                                 ct++;
                             }   
                         }
