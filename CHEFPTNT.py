@@ -1,5 +1,5 @@
-for t in range(int(input())):
-    n,m,x,k=[int(i) for i in input().split()]
+for t in range(int(input())): # number of test cases
+    n,m,x,k=[int(i) for i in input().split()] # n = patents, m = months, k = available workers, x = max no. of workers who can work
     s=input()
     e=0
     o=0
@@ -29,6 +29,6 @@ for t in range(int(input())):
             if n<=0:
                 break
         if n<=0:            
-            print('yes')
+            print('yes') # it is possible to finish the patent case
         else:
-            print('no')
+            print('no') # it is not possible to finish the patent case
