@@ -1,5 +1,5 @@
-for t in range(int(input())):
-        s=input()
+for t in range(int(input())): # number of test cases
+        s=input() # activity log
         cn=0
         for i in range(len(s)-1):
                 if s[i]=='C':
@@ -12,6 +12,6 @@ for t in range(int(input())):
                         if s[i+1]!='S':
                                 cn+=1
         if cn>0:
-                print("no")
+                print("no") # record made by robot is not correct
         else:
-                print("yes") 
+                print("yes") # record made by robot is correct
