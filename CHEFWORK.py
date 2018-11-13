@@ -1,6 +1,6 @@
-n = int(input())
-c = [int(i) for i in input().split()]
-t = [int(i) for i in input().split()]
+n = int(input()) # number of workers
+c = [int(i) for i in input().split()] # coins chef has to pay each worker
+t = [int(i) for i in input().split()] # types of workers
 c_1 = []
 c_2 = []
 c_3 = []
@@ -15,7 +15,7 @@ else:
         elif t[i] == 3:
             c_3.append(c[i])
     if c_2 != [] and c_1 != []:
-        print(min(c_2)+min(c_1))
+        print(min(c_2)+min(c_1)) # min coins that chef pays
     else:
-        print(min(c_3))
+        print(min(c_3)) # min coins that chef pays
                 
