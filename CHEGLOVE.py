@@ -1,7 +1,7 @@
-for t in range(int(input())):
-    n=int(input())
-    l=[int(i) for i in input().split()]
-    g=[int(i) for i in input().split()]
+for t in range(int(input())): # number of test cases
+    n=int(input()) # number of fingers
+    l=[int(i) for i in input().split()] # lengths of fingers
+    g=[int(i) for i in input().split()] # lengths of sheaths of the glove
     f=0
     b=0
     for i in range(n):
