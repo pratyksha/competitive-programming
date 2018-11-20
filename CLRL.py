@@ -1,6 +1,6 @@
-for t in range(int(input())):
-    n,r = [int(i) for i in input().split()]
-    a = [int(i) for i in input().split()]
+for t in range(int(input())): # number of test cases
+    n,r = [int(i) for i in input().split()] # number of people chef meets, Reziba's rating
+    a = [int(i) for i in input().split()] # ratings
     prevl = max(a)
     prevr = min(a)
     for i in a:
