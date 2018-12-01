@@ -1,5 +1,5 @@
-for t in range(int(input())):
-    n = int(input())
+for t in range(int(input())): # number of test cases
+    n = int(input()) # length of the pin
     print(1, end = " ")
     if n%2 != 0:
         print(1,end = "")
