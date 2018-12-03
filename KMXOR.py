@@ -1,5 +1,5 @@
-for t in range(int(input())):
-    n, k = [int(i) for i in input().split()]
+for t in range(int(input())): # number of test cases
+    n, k = [int(i) for i in input().split()] # n = number of ingredients, k = max-amount of ingredient
     if n == 1:
         print(k)
         continue
@@ -14,4 +14,4 @@ for t in range(int(input())):
             po = po*2
         po = po // 2
         taste = [po, po-1-n%2] + [1]*(n-2)
-    print(*taste)
+    print(*taste) # amounts of all ingredients to get max-taste
