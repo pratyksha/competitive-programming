@@ -3,7 +3,7 @@
 int main(void) {
 	int t;
 	scanf("%d\n",&t);
-	while((t--)>0)
+	while((t--)>0) // number of test cases
 	{
 	 int p=0,ct=0,i=5;
 	 scanf("%d\n",&p);
