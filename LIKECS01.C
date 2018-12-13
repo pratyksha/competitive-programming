@@ -3,7 +3,7 @@
 int main(void) {
     int t,i=0;
 	char s[100];
-	scanf("%d",&t);
+	scanf("%d",&t); // number of test cases
 	for(i=0;i<t;i++)
 	{
 	    int j=0,k=0,l=0,c=0,ct=0;
