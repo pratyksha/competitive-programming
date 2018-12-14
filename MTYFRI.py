@@ -1,6 +1,6 @@
-for t in range(int(raw_input())):
-    n, k = [ int(i) for i in raw_input().split()]
-    a = [int(i) for i in raw_input().split()]
+for t in range(int(raw_input())): # number of test cases
+    n, k = [ int(i) for i in raw_input().split()] 
+    a = [int(i) for i in raw_input().split()] # input array
     motu = a[::2]
     tomu = a[1::2]
     sum_tomu = sum(tomu)
