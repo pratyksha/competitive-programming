@@ -1,5 +1,5 @@
 #In the name of God
-for i in range(int(input())):
+for i in range(int(input())): # number of test cases
     n, a, b = [int(values) for values in input().split()]
     nums_on_dice = [int(face) for face in input().split()]
     count_a, count_b = 0, 0
