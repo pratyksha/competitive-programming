@@ -5,7 +5,7 @@ def Sum(a, size):
         max_rn=max( a[i],max_rn+a[i])
         max_till_now=max(max_till_now,max_rn)
     return max_till_now
-for t in range(int(input())):
+for t in range(int(input())): # number of test cases 
     n,k=[int(i) for i in input().split()]
     a=[int(i) for i in input().split()]
     ss=sum(a)
