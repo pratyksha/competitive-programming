@@ -7,7 +7,7 @@ def partition_it(n,sums,x):
                 a[j-1] = 1
                 sums -= j
     return(a)
-for t in range(int(input())):
+for t in range(int(input())): # number of test cases
     x,n = [int(i) for i in input().split()]
     sums = (n*(n+1)//2)-x
     if n <= 3:
