@@ -1,4 +1,4 @@
-for t in range(int(input())):
+for t in range(int(input())): # number of test cases
     n = int(input())
     a = [[]]*n
     for i in range(n):
