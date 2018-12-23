@@ -1,5 +1,5 @@
 import math
-for _ in range(int(input())):
+for _ in range(int(input())): #number of test cases
     time = int(input())
     byte, nibble, bit = 0,0,0
     if time%26 > 10:
@@ -11,6 +11,6 @@ for _ in range(int(input())):
     else:
         bit = 2**(time//26)
     
-    print(bit, end = " ")
-    print(nibble, end = " ")
-    print(byte)
+    print(bit, end = " ") # bit 
+    print(nibble, end = " ") # nibble
+    print(byte) # byte
