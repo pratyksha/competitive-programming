@@ -11,13 +11,13 @@ for j in range(p):
     for i in range(s-1):
         if mat[i][1] > mat[i+1][1]:
             n[j] += 1
-#print(n)
+##print(n)
 sortd_n = sorted(n)
-#print(sortd_n)
+##print(sortd_n)
 for j in range(p):
     pos = bisect.bisect_left(sortd_n, n[j])
     rank[pos].append(j+1)
 for ele in rank:
     for ele2 in ele:
-        print(ele2)
+        print(ele2) # print the answer 
     
