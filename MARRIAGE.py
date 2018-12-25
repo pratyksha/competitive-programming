@@ -1,4 +1,4 @@
-a,b = [ int(i) for i in input().split()]
+a,b = [ int(i) for i in input().split()] # accept the two numbers
 if a < 0 and b > 0:
     print(abs(a)+b)
 elif b < 0 and a > 0:
