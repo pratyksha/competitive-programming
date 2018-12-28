@@ -41,11 +41,11 @@ class Codechef
 	        }
 	        }
 	    }
-	    long t=sc.nextLong();
-	    while(t-->0)
+	    long t=sc.nextLong(); // number of test cases
+	    while(t-->0) 
 	    {
 	        int n=sc.nextInt();
-	        System.out.println(sum[n]);
+	        System.out.println(sum[n]); // printing the answer
 	    }
 	}
 }
