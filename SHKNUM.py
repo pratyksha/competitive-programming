@@ -3,7 +3,7 @@ from bisect import bisect_right as br
 mylist=[]
 for i in range(50):
     mylist.append(2**i) 
-for t in range(int(input())):
+for t in range(int(input())): #number of test cases 
     n = int(input())
     if n == 1:
         print(2)
