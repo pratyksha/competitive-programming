@@ -11,7 +11,7 @@ def calculate(st):
         if a_count > b_count:
             count += 1
     return(count)
-for T in range(int(raw_input())):
+for T in range(int(raw_input())): # number of test cases
     s, n = raw_input().split()
     n = int(n)
     a_in_s = s.count('a')
