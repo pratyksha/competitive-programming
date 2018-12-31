@@ -1,5 +1,5 @@
 try:
-    while True:
+    while True: # to make sure code runs as long as it receives input
         inp=input()
         if inp!="":
             a=[]
