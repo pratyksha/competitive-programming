@@ -1,4 +1,4 @@
-for _ in range(int(input())):
+for _ in range(int(input())): # number of test cases
     n = int(input())
     speeds = [int(i) for i in input().split()]
     temp = speeds[0]
