@@ -11,6 +11,6 @@ int main(void) {
 	    if(p%k==0)
 	    count++;
 	}
-	printf("%d",count);
+	printf("%d",count); // print the answer
 	return 0;
 }
