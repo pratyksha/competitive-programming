@@ -22,4 +22,4 @@ for i in range(int(input())):
                 count+=b.count(j)
             else:
                 count+=a.count(j)
-    print(count)
+    print(count) # print the answer  
