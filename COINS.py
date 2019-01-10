@@ -14,6 +14,6 @@ def find_coin(n):
 try:
     while True:
         n = int(input())
-        print(find_coin(n))
+        print(find_coin(n)) # print the answer
 except:
     exit(0)
