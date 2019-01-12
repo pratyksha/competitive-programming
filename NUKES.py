@@ -7,4 +7,4 @@ for i in range(k):
     if a == 0:
         break
 for i in ans:
-    print(i)
+    print(i) # print the answer 
