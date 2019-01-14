@@ -1,4 +1,4 @@
-t = int(input())
+t = int(input()) #number of test cases
 while t>0:
     num = int(input())
     fact=1
