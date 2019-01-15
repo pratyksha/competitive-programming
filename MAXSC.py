@@ -11,7 +11,7 @@ def Search(lo,hi,p,prev):
     if p[lo]>=prev:
         return -1
     return lo
-for t in range(int(input())):
+for t in range(int(input())): # number of test cases 
     n=int(input())
     l=[]
     sums=0
