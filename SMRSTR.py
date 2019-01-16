@@ -1,4 +1,4 @@
-for t in range(int(input())):
+for t in range(int(input())): # number of test cases 
         n,q= map(int, input().split())
         d=[int(i) for i in input().split()]
         x=[int(i) for i in input().split()]
