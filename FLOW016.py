@@ -1,4 +1,4 @@
-def gcd(m, n):
+def gcd(m, n): # implementation of Euclid algorithm to find gcd
     if n == 0:
         return m
     return gcd(n, m%n)
