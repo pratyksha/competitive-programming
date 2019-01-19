@@ -1,4 +1,4 @@
-for _ in range(int(input())):
+for _ in range(int(input())): # number of test cases
     l, r = [int(i) for i in input().split()]
     sums = 0
     for i in range(l, r+1):        
